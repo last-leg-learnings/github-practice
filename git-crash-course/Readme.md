@@ -71,6 +71,18 @@ Make commit without opening editor
 git commit -m "msg"
 ```
 ## Branches
+```sh 
+git branch 
+```
+>list branches 
+```sh 
+git branch branch-name 
+```
+>new branch
+```sh 
+git checkout branch-name 
+```
+>checkout branch
 ## Remotes
 ## Staging 
 ## Merging 
