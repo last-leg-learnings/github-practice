@@ -32,12 +32,12 @@ git@github.com:last-leg-learnings/github-practice.git
 ```bash
 ssh-keygen -t ed25519 -C "your-email@example.com"
 ```
-#### 
+#### Start SSH
 ```bash
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
-#### 
+#### Show key to paste in github UI
 ```bash 
 cat ~/.ssh/id_ed25519.pub
 ```
@@ -84,8 +84,23 @@ git checkout branch-name
 ```
 >checkout branch
 ## Remotes
+```sh
+git remote add ... 
+git branch -u origin new-feature
+```
 ## Staging 
+```sh 
+git stash list 
+git stash save stash-name
+git stash pop
+git stash save 
+git stash apply
+```
 ## Merging 
+```sh
+git merge branch-name
+```
+>on conflict choose a version 
 ## Status
 ```sh 
 git status
